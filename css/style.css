@@ -22,62 +22,15 @@
   background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.4)), url("../img/coffee.jpg");
   background-size: cover; }
 
-.top__head__img {
-  height: 275px;
-  width: 350px;
-  object-fit: cover;
-  filter: brightness(60%);
-  backface-visibility: hidden; }
-
-.top__head:hover .top__head__img {
-  filter: brightness(80%) blur(3px); }
-
-.card-image-checking {
-  background-size: cover;
-  height: 250px;
-  width: 300px; }
-  .card-image-checking-1 {
-    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/online-banking-card.jpg");
-    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/online-banking-card.jpg");
-    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/online-banking-card.jpg"); }
-    .card-image-checking-1:hover {
-      filter: brightness(120%); }
-  .card-image-checking-2 {
-    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/winter-couple.jpg");
-    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/winter-couple.jpg");
-    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/winter-couple.jpg"); }
-    .card-image-checking-2:hover {
-      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/winter-couple.jpg");
-      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/winter-couple.jpg");
-      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/winter-couple.jpg"); }
-  .card-image-checking-3 {
-    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/family-bed.jpg");
-    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/family-bed.jpg");
-    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/family-bed.jpg"); }
-    .card-image-checking-3:hover {
-      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/family-bed.jpg");
-      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/family-bed.jpg");
-      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/family-bed.jpg"); }
-  .card-image-checking-4 {
-    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/dad-daughter-mobile.jpg");
-    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/dad-daughter-mobile.jpg");
-    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/dad-daughter-mobile.jpg"); }
-    .card-image-checking-4:hover {
-      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/dad-daughter-mobile.jpg");
-      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/dad-daughter-mobile.jpg");
-      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/dad-daughter-mobile.jpg"); }
-  .card-image-checking-5 {
-    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/mother-daughter-ball.jpg");
-    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/mother-daughter-ball.jpg");
-    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/mother-daughter-ball.jpg"); }
-    .card-image-checking-5:hover {
-      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/mother-daughter-ball.jpg");
-      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/mother-daughter-ball.jpg");
-      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/mother-daughter-ball.jpg"); }
-
 .nav-link-white a {
   color: white; }
 
 .card-text {
   font-weight: lighter;
   font-size: 18px; }
+
+.img-div {
+  width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+  object-position: center top; }
