@@ -30,13 +30,22 @@
   background-size:cover;
 }
 
-.image-classic-check {
-  height: 600px;
-  background:url('../img/classic-check.jpg');
-  background-size:cover;
+// background images for Checking page
+
+.top__head {
+  &__img{
+    height: 275px;
+    width: 350px;
+    object-fit: cover;
+    filter: brightness(60%);
+    backface-visibility: hidden;
+  }
+  &:hover &__img {
+    filter: brightness(80%) blur(3px);
+  }
 }
 
-// background images for Checking page
+
 
 .card-image-checking {
   background-size:cover;
@@ -48,9 +57,10 @@
     background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/online-banking-card.jpg');
     background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/online-banking-card.jpg');
     &:hover {
-      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/online-banking-card.jpg');
-      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/online-banking-card.jpg');
-      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/online-banking-card.jpg');
+      filter: brightness(120%);
+      // background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/online-banking-card.jpg');
+      // background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/online-banking-card.jpg');
+      // background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/online-banking-card.jpg');
     }
   }
 

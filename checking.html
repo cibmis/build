@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CIBM Bank</title>
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Trirong:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/fontawesome-all.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
@@ -81,16 +81,22 @@
   </header>
 
   <div class="container">
-    <div class="row mt-3 mb-3">
+    <div class="row my-3">
       <div class="col">
-        <div class="card text-center mx-auto mb-5 card-image-checking card-image-checking-1">
-          <div class="card-body">
-            <h4 class="text-white">Acceleration Checking</h4>
-            <p class="card-text text-white">Our flagship checking account that pays you interest for using it.</p>
-            <a href="#" class="btn btn-outline-primary text-white text-center mt-4">Learn More</a>
-          </div><!-- Card-body -->
-        </div><!-- card -->
-      </div><!-- col-md-4 -->
+        <!-- <figure class="top__head">
+          <img src="img/online-banking-card.jpg" alt="Acceleration Checking" class="top__head__img">
+        </figure> -->
+        <div class="card top__head mb-5">
+          <img src="img/online-banking-card.jpg" alt="Acceleration Checking" class="top__head__img align-self-center">
+          <div class="card-img-overlay">
+            <div class="card-text text-center">
+              <h4 class="text-white">Acceleration Checking</h4>
+              <p class="card-text text-white">Our flagship checking account that pays you interest for using it.</p>
+              <a href="#" class="btn btn-outline-primary text-white text-center mt-5">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="col">
         <div class="card text-center mx-auto mb-5 card-image-checking card-image-checking-2">
           <div class="card-body">
@@ -278,17 +284,24 @@
           <li>No monthly service charge</li>
           <li>Minimum opening deposit: $100*</li>
         </ul>
-        <div class="text-right"><a class="btn btn-primary" href="https://jha.loanspq.com/Consumer/login/default.aspx?enc2=CjDDGQgp6ViDEpMSQAmj1Mt9iJ47rlWOAvGdAbRNw9KIzpskPBYevcGEW_G3Wn3mBEBWM1TImJDWIpCFekBc-KEztP52jxLl1ae26VD7CFvJyV9_G7IfwjNvHAus0ey3">Apply Now <span class="icon fa fa-arrow-circle-right"></span></a>
+        <div class="text-right"><a class="btn btn-primary mb-4" href="https://jha.loanspq.com/Consumer/login/default.aspx?enc2=CjDDGQgp6ViDEpMSQAmj1Mt9iJ47rlWOAvGdAbRNw9KIzpskPBYevcGEW_G3Wn3mBEBWM1TImJDWIpCFekBc-KEztP52jxLl1ae26VD7CFvJyV9_G7IfwjNvHAus0ey3">Apply Now <span class="icon fa fa-arrow-circle-right"></span></a>
         </div>
       </div>
     </div>
-    <div class="row my-5">
-      <div class="col-md-6">
-        <img class="img-fluid" src="img/nowchecking.jpg">
-      </div>
-      <div class="col-md-6">
-        <a class="anchor" name="personalnow"><h2>Personal NOW</h2></a>
+  </div>
+
+  <div class="row image-classic-check">
+  </div>
+
+  <div class="container">
+    <div class="row mt-5 justify-content-start">
+      <div class="col-md-10">
+        <a class="anchor" name="classicchecking"><h2>Personal Now</h2></a>
         <p>Earn a variable rate of interest on your checking account and enjoy the benefit of no monthly service charges when you maintain the minimum balance requirements. (Not Available in Indianapolis region)</p>
+      </div>
+    </div>
+    <div class="row justify-content-start">
+      <div class="col-md-4">
         <ul>
           <li>Variable rate tiered account</li>
           <li>Interest is earned on collected balance, compounded daily and paid to the account monthly</li>
@@ -296,15 +309,21 @@
           <li><a href="mobile.html#mobilebanking" title="Mobile Banking">Mobile Banking</a></li>
           <li><a href="mobile.html#estatements" title"eStatements">eStatements</a></li>
           <li><a href="bankbyphone.html">Telephone Banking</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
           <li>Debit Card with Rewards Program</li>
           <li>Variety Pack of Checks</li>
-          <li>Overdraft Protection Options:  Line of Credit or Link to Savings</li>
+          <li>Overdraft Protection Options</li>
           <li>Minimum balance: $1,000 or average daily balance of $2,500</li>
           <li>Monthly service charge (if minimum balance requirements are not maintained): $7</li>
           <li>Minimum opening deposit: $100*</li>
         </ul>
       </div>
-    </div><!-- row -->
+    </div>
+  </div>
+
     <div class="row my-3">
      <div class="col-md-6">
        <a class="anchor" name="alternative"><h2>Alternative Checking</h2></a>
@@ -374,7 +393,7 @@
     </div>
   </footer>
   <footer>
-    <div class="container">
+    <div class="container d-none d-md-block">
       <div class="footer navbar fixed-bottom navbar-dark bg-primary">
         <div class="col-md-3 text-center">
           <img src="img/cib-white-logo.png" height="50" alt="central Illinois Bank">
