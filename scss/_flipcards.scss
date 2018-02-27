@@ -1,12 +1,12 @@
 
 .flipcard {
-  -webkit-perspective: 150rem;
-  perspective: 150rem;
-  -webkit-moz-perspective: 150rem;
-  -moz-moz-perspective: 150rem;
-  -ms-moz-perspective: 150rem;
-  -o-moz-perspective: 150rem;
-  moz-perspective: 150rem;
+  -webkit-perspective: 140rem;
+  perspective: 140rem;
+  -webkit-moz-perspective: 140rem;
+  -moz-moz-perspective: 140rem;
+  -ms-moz-perspective: 140rem;
+  -o-moz-perspective: 140rem;
+  moz-perspective: 140rem;
   position: relative;
   height: 40rem;
 
@@ -56,11 +56,11 @@
     }
 
     &--2 {
-      background-image: url(../img/acceleration-girl-red.jpg);
+      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.6)), url(../img/online-banking.jpg);
     }
 
     &--3 {
-      background-image: url(../img/acceleration-girl-red.jpg);
+      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.6)), url(../img/rda.jpg);
     }
   }
 
@@ -91,5 +91,6 @@
     transform: translate(-50%, -50%);
     font-size: 5rem;
     font-weight: 200;
+    text-align: center;
   }
 }

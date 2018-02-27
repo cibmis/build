@@ -34,3 +34,29 @@
   max-height: 40rem;
   object-fit: cover;
   object-position: center top; }
+
+.jumbo-header {
+  position: relative;
+  height: 60vh;
+  overflow: hidden; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .5; }
+  .bg-video__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    overflow: hidden; }
+
+.video-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
