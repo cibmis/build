@@ -49,6 +49,71 @@
       background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/mother-daughter-ball.jpg");
       background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/mother-daughter-ball.jpg"); }
 
+.flipcard {
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  -webkit-moz-perspective: 150rem;
+  -moz-moz-perspective: 150rem;
+  -ms-moz-perspective: 150rem;
+  -o-moz-perspective: 150rem;
+  moz-perspective: 150rem;
+  position: relative;
+  height: 40rem; }
+  .flipcard__side {
+    color: #fff;
+    font-size: 2rem;
+    height: 40rem;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .flipcard__side--front {
+      background-color: #007bff; }
+    .flipcard__side--back {
+      background-image: linear-gradient(to right bottom, #007bff, #b3d7ff);
+      transform: rotateY(-180deg); }
+  .flipcard:hover .flipcard__side--front {
+    transform: rotateY(-180deg); }
+  .flipcard:hover .flipcard__side--back {
+    transform: rotateY(0deg); }
+  .flipcard__picture {
+    background-size: cover;
+    height: 15rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); }
+    .flipcard__picture--1 {
+      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.6)), url(../img/acceleration-girl-red.jpg); }
+    .flipcard__picture--2 {
+      background-image: url(../img/acceleration-girl-red.jpg); }
+    .flipcard__picture--3 {
+      background-image: url(../img/acceleration-girl-red.jpg); }
+  .flipcard__details {
+    padding: 1rem; }
+    .flipcard__details ul {
+      list-style: none;
+      width: 80%; }
+      .flipcard__details ul li {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem; }
+        .flipcard__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
+  .flipcard__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: 200; }
+
 @media print {
   *,
   *::before,
