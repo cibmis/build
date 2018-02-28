@@ -53,8 +53,9 @@
   background-position: top;
 
   &-1 {
-      background-image: url(../img/manage-account.jpg);
+      background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/manage-account.jpg');
       max-height: 45vh;
+
   }
 }
 
