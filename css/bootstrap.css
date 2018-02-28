@@ -5658,11 +5658,11 @@ a.text-dark:focus, a.text-dark:hover {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); }
     .flipcard__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url(../img/acceleration-girl-red.jpg); }
+      background-image: url(../img/acceleration-girl-red.jpg); }
     .flipcard__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0), rgba(26, 144, 255, 0)), url(../img/online-banking.jpg); }
+      background-image: url(../img/online-banking.jpg); }
     .flipcard__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url(../img/rda.jpg); }
+      background-image: url(../img/rda.jpg); }
   .flipcard__details {
     padding: 1rem; }
     .flipcard__details ul {
