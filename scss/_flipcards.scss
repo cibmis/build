@@ -52,15 +52,15 @@
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 
     &--1 {
-      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.6)), url(../img/acceleration-girl-red.jpg);
+      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url(../img/acceleration-girl-red.jpg);
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.6)), url(../img/online-banking.jpg);
+      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.0), rgba(26, 144, 255, 0.0)), url(../img/online-banking.jpg);
     }
 
     &--3 {
-      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.4), rgba(26, 144, 255, 0.6)), url(../img/rda.jpg);
+      background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url(../img/rda.jpg);
     }
   }
 
