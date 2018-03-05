@@ -116,20 +116,6 @@ p.feature {
   font-weight: lighter;
 }
 
-.money {
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-
-.dollar {
-  font-size: 3rem;
-  vertical-align: top;
-}
-
-.money-size {
-  font-size: 15rem;
-}
-
 .money-table {
   width: 80%;
   max-width: 1600px;
@@ -140,14 +126,5 @@ p.feature {
   font-weight: lighter;
   .hide-border {
     border-top: none;
-  }
-}
-
-.bg-primary {
-  a {
-    color: darken(white, 15%) !important;
-  }
-  a:hover {
-    color: white !important;
   }
 }

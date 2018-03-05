@@ -84,17 +84,6 @@ p.feature {
   font-size: 150%;
   font-weight: lighter; }
 
-.money {
-  padding-top: 75px;
-  padding-bottom: 75px; }
-
-.dollar {
-  font-size: 3rem;
-  vertical-align: top; }
-
-.money-size {
-  font-size: 15rem; }
-
 .money-table {
   width: 80%;
   max-width: 1600px; }
@@ -104,9 +93,3 @@ p.feature {
   font-weight: lighter; }
   .fees .hide-border {
     border-top: none; }
-
-.bg-primary a {
-  color: #d9d9d9 !important; }
-
-.bg-primary a:hover {
-  color: white !important; }
