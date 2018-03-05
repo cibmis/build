@@ -86,14 +86,14 @@ p.feature {
 
 .money {
   padding-top: 75px;
-  padding-bottom: 75px;
-  font-size: 15rem;
-  position: relative; }
-  .money .dollar {
-    position: absolute;
-    font-size: 3rem;
-    top: 32%;
-    right: 75%; }
+  padding-bottom: 75px; }
+
+.dollar {
+  font-size: 3rem;
+  vertical-align: top; }
+
+.money-size {
+  font-size: 15rem; }
 
 .money-table {
   width: 80%;
