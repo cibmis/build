@@ -35,6 +35,9 @@
   object-fit: cover;
   object-position: center top; }
 
+.jumbotron {
+  margin-bottom: 0rem !important; }
+
 .jumbotron-fluid {
   width: 100%;
   height: 600px;
@@ -42,6 +45,9 @@
   background-position: top; }
   .jumbotron-fluid-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/manage-account.jpg");
+    max-height: 45vh; }
+  .jumbotron-fluid-accelcheck {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/acceleration-rocket.jpg");
     max-height: 45vh; }
 
 .overlap {
@@ -69,3 +75,38 @@
     transition: .2s; }
     .overlap__card:hover {
       transform: scale(1.05); }
+
+h1.feature {
+  font-size: 3em;
+  font-weight: lighter; }
+
+p.feature {
+  font-size: 150%;
+  font-weight: lighter; }
+
+.money {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 15rem;
+  position: relative; }
+  .money .dollar {
+    position: absolute;
+    font-size: 3rem;
+    top: 32%;
+    right: 75%; }
+
+.money-table {
+  width: 80%;
+  max-width: 1600px; }
+
+.fees {
+  font-size: 125%;
+  font-weight: lighter; }
+  .fees .hide-border {
+    border-top: none; }
+
+.bg-primary a {
+  color: #d9d9d9 !important; }
+
+.bg-primary a:hover {
+  color: white !important; }
