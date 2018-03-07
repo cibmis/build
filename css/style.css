@@ -49,6 +49,15 @@
   .jumbotron-fluid-accelcheck {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/acceleration-rocket.jpg");
     max-height: 45vh; }
+  .jumbotron-fluid-personalnow {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/now-checking.jpg");
+    max-height: 45vh; }
+  .jumbotron-fluid-classiccheck {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/classic-check.jpg");
+    max-height: 45vh; }
+  .jumbotron-fluid-altcheck {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/alternative-checking.jpg");
+    max-height: 45vh; }
 
 .overlap {
   position: relative;
@@ -89,7 +98,7 @@ p.feature {
   max-width: 1600px; }
 
 .fees {
-  font-size: 125%;
+  font-size: 1.75rem;
   font-weight: lighter; }
   .fees .hide-border {
     border-top: none; }
