@@ -4,6 +4,10 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(fonts/Montserrat-Light.ttf); }
+
 @media print {
   *,
   *::before,
@@ -68,7 +72,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
   font-size: 1.25rem;
   font-weight: normal;
   line-height: 1.5;
@@ -3333,7 +3337,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3415,7 +3419,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
