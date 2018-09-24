@@ -5649,7 +5649,7 @@ a.text-dark:focus, a.text-dark:hover {
     .flipcard__side--front {
       background-color: #2C94CB; }
     .flipcard__side--back {
-      background-image: linear-gradient(to right bottom, #007bff, #b3d7ff);
+      background-image: linear-gradient(to right bottom, #2c94cb, #b3d7ff);
       transform: rotateY(-180deg); }
   .flipcard:hover .flipcard__side--front {
     transform: rotateY(-180deg); }
