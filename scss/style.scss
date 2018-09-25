@@ -30,8 +30,11 @@
   background-size:cover;
 }
 
-.nav-link-white a {
+.nav-link-white {
   color:white;
+  &:hover {
+    color: darken(white, 15%) !important;
+  }
 }
 
 .card-text {

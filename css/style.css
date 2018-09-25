@@ -22,8 +22,10 @@
   background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/coffee.jpg");
   background-size: cover; }
 
-.nav-link-white a {
+.nav-link-white {
   color: white; }
+  .nav-link-white:hover {
+    color: #d9d9d9 !important; }
 
 .card-text {
   font-weight: lighter;
