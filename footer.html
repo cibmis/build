@@ -15,7 +15,7 @@
     </nav>
     <div class="row bg-secondary mb-5">
       <div class="container">
-        <p class="text-primary">&copy; 2018 CIBM Bank &middot; Equal Housing Lender. Member FDIC. &middot; <a href="privacy.html">Privacy Statement &middot; </a> <a href="terms.html">Terms and Conditions</a></p>
+        <p class="text-primary">&copy; 2019 CIBM Bank &middot; Equal Housing Lender. Member FDIC. &middot; <a href="privacy.html">Privacy Statement &middot; </a> <a href="terms.html">Terms and Conditions</a></p>
       </div>
     </div>
   </footer>
@@ -38,3 +38,24 @@
       </div>
     </div>
   </footer>
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/alertify.min.js" type="text/JavaScript"></script>
+  <!-- <script src="js/calculate.js"></script> -->
+  <!-- <script src="js/app.js"></script> -->
+  <script type="text/JavaScript">
+    $(".alertexit").click(function(event)  {
+      alertify.confirm("By clicking OK, you will be leaving CIBM Bank website, click Cancel to remain.",
+        function(){
+          alertify.success('Ok');
+        },
+        function(){
+          alertify.error('Cancel');
+        });
+      });
+  </script>
