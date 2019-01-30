@@ -52,7 +52,8 @@
     $(".alertexit").on('click', function (e){
       e.preventDefault();
       var href = this.href;
-      alertify.confirm("CIBM Bank Alert", "By clicking OK, you will be leaving Central Illnois Bank website, click Cancel to remain.", function (e) {
+      alertify.defaults.glossary.title = 'CIBM Bank Alert';
+      alertify.confirm("By clicking OK, you will be leaving Central Illnois Bank website, click Cancel to remain.", function (e) {
         if (e) {
           window.open(href);
         }
