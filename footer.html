@@ -48,7 +48,18 @@
   <script src="js/alertify.min.js" type="text/JavaScript"></script>
   <!-- <script src="js/calculate.js"></script> -->
   <!-- <script src="js/app.js"></script> -->
-  <script type="text/JavaScript">
+  <script>
+    $(".alertexit").on('click', function (e){
+      e.preventDefault();
+      var href = this.href;
+      alertify.confirm("By clicking OK, you will be leaving Central Illnois Bank website, click Cancel to remain.", function (e) {
+        if (e) {
+          window.open(href);
+        }
+      });
+    });
+  </script>
+  <!-- <script type="text/JavaScript">
     $(".alertexit").click(function(event)  {
       alertify.confirm("By clicking OK, you will be leaving CIBM Bank website, click Cancel to remain.",
         function(){
@@ -58,4 +69,4 @@
           alertify.error('Cancel');
         });
       });
-  </script>
+  </script> -->
