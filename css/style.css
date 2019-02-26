@@ -78,6 +78,9 @@
   .jumbotron-fluid-personalmm {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/personalmm-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-perselmm {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/perselmm-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
