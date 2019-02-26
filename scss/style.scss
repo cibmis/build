@@ -123,6 +123,11 @@
     background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cd-jumbo.jpg');
     max-height: 60vh;
   }
+
+  &-hsa {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/hsa-jumbo.jpg');
+    max-height: 60vh;
+  }
 }
 
 .overlap {
