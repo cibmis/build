@@ -87,6 +87,9 @@
   .jumbotron-fluid-hsa {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/hsa-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-coverdell {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/cover-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
