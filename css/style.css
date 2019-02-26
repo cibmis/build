@@ -66,6 +66,9 @@
   .jumbotron-fluid-accelsav {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/accelsav-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-bonussavings {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bonsav-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
