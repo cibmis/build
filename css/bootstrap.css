@@ -5789,6 +5789,51 @@ a.text-dark:focus, a.text-dark:hover {
       background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card-specialty.jpg");
       background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card-specialty.jpg"); }
 
+.card-image-ave-team {
+  background-size: cover;
+  height: 250px;
+  width: 300px; }
+  .card-image-ave-team-1 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/centralillinois.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/centralillinois.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/centralillinois.jpg"); }
+    .card-image-ave-team-1:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/centralillinois.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/centralillinois.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/centralillinois.jpg"); }
+  .card-image-ave-team-2 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/chicagoland.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/chicagoland.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/chicagoland.jpg"); }
+    .card-image-ave-team-2:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/chicagoland.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/chicagoland.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/chicagoland.jpg"); }
+  .card-image-ave-team-3 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/indiana.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/indiana.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/indiana.jpg.jpg"); }
+    .card-image-ave-team-3:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/indiana.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/indiana.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/indiana.jpg"); }
+  .card-image-ave-team-4 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/wisconsin.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/wisconsin.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/wisconsin.jpg"); }
+    .card-image-ave-team-4:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/wisconsin.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/wisconsin.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/wisconsin.jpg"); }
+  .card-image-ave-team-5 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/other.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/other.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/other.jpg"); }
+    .card-image-ave-team-5:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/other.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/other.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/other.jpg"); }
+
 .flipcard {
   -webkit-perspective: 140rem;
   perspective: 140rem;
