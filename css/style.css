@@ -99,6 +99,9 @@
   .jumbotron-fluid-fha {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/fha-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-usda {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/usda-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
