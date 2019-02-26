@@ -72,6 +72,9 @@
   .jumbotron-fluid-plannedsav {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/plannedsav-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-kidsclub {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/kidsclub-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
