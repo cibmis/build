@@ -133,6 +133,11 @@
     background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cover-jumbo.jpg');
     max-height: 60vh;
   }
+
+  &-mortgage {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/mortgage-jumbo.jpg');
+    max-height: 60vh;
+  }
 }
 
 .overlap {
