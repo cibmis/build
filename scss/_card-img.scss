@@ -222,13 +222,84 @@
     }
   }
   &-2{
-    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..fha-mort-mort.jpg');
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/fha-mort-mort.jpg');
     background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/fha-mort.jpg');
     background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/fha-mort.jpg');
     &:hover {
       background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/fha-mort.jpg');
       background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/fha-mort.jpg');
       background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/fha-mort.jpg');
+    }
+  }
+
+  &-3{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..fhmg/card-renovate.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-renovate.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-renovate.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-renovate.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-renovate.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-renovate.jpg');
+    }
+  }
+}
+
+.card-image-ave-purchase {
+  background-size:cover;
+  height: 250px;
+  width: 300px;
+
+  &-1{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-conv.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-conv.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-conv.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-conv.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-conv.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-conv.jpg');
+    }
+  }
+  &-2{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-fha.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-fha.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-fha.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-fha.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-fha.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-fha.jpg');
+    }
+  }
+
+  &-3{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-usda.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-usda.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-usda.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-usda.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-usda.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-usda.jpg');
+    }
+  }
+
+  &-4{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-va.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-va.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-va.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-va.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-va.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-va.jpg');
+    }
+  }
+
+  &-5{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-jumbo.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-jumbo.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('..img/card-jumbo.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-jumbo.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-jumbo.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('..img/card-jumbo.jpg');
     }
   }
 }
