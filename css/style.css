@@ -55,7 +55,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/now-checking.jpg");
     max-height: 60vh; }
   .jumbotron-fluid-classiccheck {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/classic-check.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/classic-jumbo.jpg");
     max-height: 60vh; }
   .jumbotron-fluid-altcheck {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/alternative-checking.jpg");
