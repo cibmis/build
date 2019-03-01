@@ -138,6 +138,21 @@
   .jumbotron-fluid-premier {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/premier-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-lineofcredit {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/lineofcredit-jumbo.jpg");
+    max-height: 60vh; }
+  .jumbotron-fluid-termloan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/termloan-jumbo.jpg");
+    max-height: 60vh; }
+  .jumbotron-fluid-fasttrack {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/fasttrack-jumbo.jpg");
+    max-height: 60vh; }
+  .jumbotron-fluidrealestate {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/realestate-jumbo.jpg");
+    max-height: 60vh; }
+  .jumbotron-fluidbusicreditcard {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/busicreditcard-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;

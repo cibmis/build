@@ -213,6 +213,31 @@
     background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/premier-jumbo.jpg');
     max-height: 60vh;
   }
+
+  &-lineofcredit {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/lineofcredit-jumbo.jpg');
+    max-height: 60vh;
+  }
+
+  &-termloan {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/termloan-jumbo.jpg');
+    max-height: 60vh;
+  }
+
+  &-fasttrack {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/fasttrack-jumbo.jpg');
+    max-height: 60vh;
+  }
+
+  &realestate {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/realestate-jumbo.jpg');
+    max-height: 60vh;
+  }
+  
+  &busicreditcard {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/busicreditcard-jumbo.jpg');
+    max-height: 60vh;
+  }
 }
 
 .overlap {
