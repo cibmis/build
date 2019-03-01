@@ -126,6 +126,9 @@
   .jumbotron-fluid-creditcard {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/creditcard-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-onlinemobile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/onlinemobile-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
