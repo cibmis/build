@@ -198,6 +198,21 @@
     background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/onlinemobile-jumbo.jpg');
     max-height: 60vh;
   }
+
+  &-basicbusiness {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/basic-jumbo.jpg');
+    max-height: 60vh;
+  }
+
+  &-advantagecheck {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/advantage-jumbo.jpg');
+    max-height: 60vh;
+  }
+
+  &-premier {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/premier-jumbo.jpg');
+    max-height: 60vh;
+  }
 }
 
 .overlap {

@@ -245,6 +245,45 @@
   }
 }
 
+.card-image-businesschecking {
+  background-size:cover;
+  height: 250px;
+  width: 300px;
+
+  &-1{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-basicbusiness.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-basicbusiness.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-basicbusiness.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-basicbusiness.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-basicbusiness.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-basicbusiness.jpg');
+    }
+  }
+
+  &-2{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-advantagebusiness.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-advantagebusiness.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-advantagebusiness.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-advantagebusiness.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-advantagebusiness.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-advantagebusiness.jpg');
+    }
+  }
+
+  &-3{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-premierbusiness.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-premierbusiness.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card-premierbusiness.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-premierbusiness.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-premierbusiness.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card-premierbusiness.jpg');
+    }
+  }
+}
+
 //Card images for Avenue Main Page
 .card-image-ave {
   background-size:cover;
