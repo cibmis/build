@@ -147,13 +147,13 @@
   .jumbotron-fluid-fasttrack {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/fasttrack-jumbo.jpg");
     max-height: 60vh; }
-  .jumbotron-fluidrealestate {
+  .jumbotron-fluid-realestate {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/realestate-jumbo.jpg");
     max-height: 60vh; }
-  .jumbotron-fluidbusicreditcard {
+  .jumbotron-fluid-busicreditcard {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/busicreditcard-jumbo.jpg");
     max-height: 60vh; }
-  .jumbotron-fluidsba {
+  .jumbotron-fluid-sba {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sba-jumbo.jpg");
     max-height: 60vh; }
 
