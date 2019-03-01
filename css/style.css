@@ -153,6 +153,9 @@
   .jumbotron-fluidbusicreditcard {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/busicreditcard-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluidsba {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sba-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
