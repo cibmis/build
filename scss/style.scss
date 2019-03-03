@@ -253,6 +253,16 @@
     background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/payables-jumbo.jpg');
     max-height: 60vh;
   }
+
+  &-moneymgmt {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/moneymgmnt-jumbo.jpg');
+    max-height: 60vh;
+  }
+
+  &-merchantservices {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/merchantservices-jumbo.jpg');
+    max-height: 60vh;
+  }
 }
 
 .overlap {
