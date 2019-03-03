@@ -406,6 +406,34 @@
   }
 }
 
+.card-image-emplyeeservices {
+  background-size:cover;
+  height: 250px;
+  width: 300px;
+
+  &-1{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.bankofchoice.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.bankofchoice.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.bankofchoice.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.bankofchoice.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.bankofchoice.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.bankofchoice.jpg');
+    }
+  }
+
+  &-2{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.hsa.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.hsa.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.hsa.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.hsa.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.hsa.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.hsa.jpg');
+    }
+  }
+}
+
 //Card images for Avenue Main Page
 .card-image-ave {
   background-size:cover;

@@ -5855,6 +5855,27 @@ a.text-dark:focus, a.text-dark:hover {
       background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.merchantservices.jpg");
       background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.merchantservices.jpg"); }
 
+.card-image-emplyeeservices {
+  background-size: cover;
+  height: 250px;
+  width: 300px; }
+  .card-image-emplyeeservices-1 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.bankofchoice.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.bankofchoice.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.bankofchoice.jpg"); }
+    .card-image-emplyeeservices-1:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.bankofchoice.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.bankofchoice.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.bankofchoice.jpg"); }
+  .card-image-emplyeeservices-2 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.hsa.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.hsa.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.hsa.jpg"); }
+    .card-image-emplyeeservices-2:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.hsa.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.hsa.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.hsa.jpg"); }
+
 .card-image-ave {
   background-size: cover;
   height: 250px;
