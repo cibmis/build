@@ -22,5 +22,5 @@ KJE.gColorGridBackground1 ="#FFFFFF";
 KJE.gColorGridBackground2 ="#CCCCCC";
 KJE.gColorAxisLine        ="#666666";
 KJE.gColorText            ="#000000";
-KJE.gColorList            = ["#000055","#246C9D","#64A650","#FFF200","#5f007f","#F15A22","#B72467","#6DC8BF","#FF0000","#ff00ff","#ffff00","#00ffff","#7f007f","#7f0000","#007f7f","#0000ff","#00c8ff","#60ffff","#bfffbf","#ffff90","#a0c8ef"];
+KJE.gColorList            = ["#1E1E3B","#246C9D","#64A650","#FFF200","#5f007f","#F15A22","#B72467","#6DC8BF","#FF0000","#ff00ff","#ffff00","#00ffff","#7f007f","#7f0000","#007f7f","#0000ff","#00c8ff","#60ffff","#bfffbf","#ffff90","#a0c8ef"];
 
