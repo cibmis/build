@@ -11,15 +11,15 @@
   height: 75vh; }
 
 .carousel-image-1 {
-  background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/flowers.jpg");
+  background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/jumbo-business..jpg");
   background-size: cover; }
 
 .carousel-image-2 {
-  background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/table.jpg");
+  background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/jumbo-life..jpg");
   background-size: cover; }
 
 .carousel-image-3 {
-  background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/coffee.jpg");
+  background-image: linear-gradient(to right bottom, rgba(204, 230, 255, 0.2), rgba(26, 144, 255, 0.4)), url("../img/jumbo-home..jpg");
   background-size: cover; }
 
 .nav-link-white {
