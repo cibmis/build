@@ -183,6 +183,9 @@
   .jumbotron-fluid-managebusiness {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/manage-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-mortgage101 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/mortgage101-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
