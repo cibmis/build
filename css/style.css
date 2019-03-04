@@ -168,6 +168,9 @@
   .jumbotron-fluid-merchantservices {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/merchantservices-jumbo.jpg");
     max-height: 60vh; }
+  .jumbotron-fluid-businesssave {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/savings-jumbo.jpg");
+    max-height: 60vh; }
 
 .overlap {
   position: relative;
