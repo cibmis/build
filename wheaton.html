@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CIBM Bank</title>
+  
+  <!--#include virtual="header.html" -->
+
+  <main role="main">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <select class="form-control" ONCHANGE="location = this.options[this.selectedIndex].value;">
+            <option>Please Select Location</option>
+            <option value="bloomington.html">Bloomington, IL</option>
+            <option value="champaign.html">Champaign, IL</option>
+            <option value="midtown.html">Champaign (Midtown), IL</option>
+            <option value="danville.html">Danville, IL</option>
+            <option value="monticello.html">Monticello, IL</option>
+            <option value="naperville.html">Naperville, IL - Mortgage Office</option>
+            <option value="peoria.html">Peoria, IL</option>
+            <option value="urbana.html">Urbana, IL</option>
+            <option value="wheaton.html">Wheaton, IL</option>
+            <option value="indy.html">Indianaolis, IN - Banking Office</option>
+            <option value="indy-mortgage.html">Indianapolis, IN - Mortgage Office</option>
+            <option value="elmgrove.html">Elm Grove, WI</option>
+            <option value="brookfield.html">Brookfield, WI</option>
+          </select>
+        </div>
+        <div class="col-md-9">
+          <h2>Wheaton, IL</h2>
+          <p><i>Clicking in the box below will direct you to an outside website.</i></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2971.411463488627!2d-88.1033099!3d41.862493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e54624625d77d%3A0xc3e5215caf9f1443!2s330+S+Naperville+Rd%2C+Wheaton%2C+IL+60187!5e0!3m2!1sen!2sus!4v1429465689459" width="600" height="450" frameborder="0" style="border:0"></iframe>
+          <div class="row">
+            <div class="col-md-5">
+              <h3>Address & Directions</h3>
+              <p>330 S. Naperville Rd.<br>Wheaton, IL 60187<br><a class="alertexit" href="https://goo.gl/maps/856O0">Directions</a></p>
+              <p>ATM at this Location</p>
+              <h3>Contact Us</h3>
+              <p>phone: (630) 634-5130<br>fax: (630) 653-9172</p>
+            </div>
+            <div class="col-md-5">
+              <h3>Lobby Hours</h3>
+              <p>Monday - Thursday<br>8:00 a.m. - 5:00 p.m.</p>
+              <p>Friday<br>8:00 a.m. - 6:00 p.m.</p>
+              <p>Saturday<br>8:00 a.m. - 1:00 p.m.</p>
+              <h3>Drive-Up Hours</h3>
+              <p>Monday - Friday<br>8:00 a.m - 6:00 p.m.</p><p>Saturday<br>8:00 a.m - 1:00 p.m.</p>
+            </div>
+          </div><!-- row inner -->
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </main>
+  
+   <!--#include virtual="footer.html" -->
+
+
+</body>
+</html>
