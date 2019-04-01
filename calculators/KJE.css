@@ -369,7 +369,7 @@ button.KJECloseButton:hover {
 
 button.KJEDefinitionIcon {
     color:#fff;
-    background:#2C94CB;
+    background:#0000D4;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -455,7 +455,7 @@ button.KJECloseButton {
 }
 
 .KJECloseButton:hover {
-    color: rgb(44,148,203);
+    color: rgb(0,0,212);
 }
 
 .KJEContent {
@@ -687,7 +687,7 @@ div.KJEDropBoxDivModern {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid rgb(44,148,203);
+    border-bottom: 12px solid rgb(0,0,212);
 }
 
 .KJEInputContainer .KJEArrow {
@@ -695,14 +695,14 @@ div.KJEDropBoxDivModern {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid rgba(44,148,203, 0.6);
-    box-shadow: 0 2px 0 rgba(44,148,203, 0.3);
-    -webkit-box-shadow: 0 2px rgba(44,148,203, 0.3);
-    -moz-box-shadow: 0 2px rgba(44,148,203, 0.3);
+    border-bottom: 12px solid rgba(0,0,212, 0.6);
+    box-shadow: 0 2px 0 rgba(0,0,212, 0.3);
+    -webkit-box-shadow: 0 2px rgba(0,0,212, 0.3);
+    -moz-box-shadow: 0 2px rgba(0,0,212, 0.3);
 }
 
 .KJEInputContainer .KJEArrow.active {
-    border-bottom: 12px solid rgba(44,148,203, 0.5);
+    border-bottom: 12px solid rgba(0,0,212, 0.5);
     cursor: pointer;
 }
 
@@ -875,6 +875,10 @@ span.KJEGuiErrorPopup:after {
     /* reduce the damage in FF3.0 */
     display:block;
     width:0;
+}
+
+span.KJEGuiErrorPopup span.KJERequiredShowHover {
+    display: inline;
 }
 
 div.KJEGuiDefnPopup {
@@ -2217,15 +2221,15 @@ div.KJEMenuSelectedRow {
     margin-top: -10px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid rgba(44,148,203, 0.6);
-    -moz-box-shadow: 0 2px rgba(44,148,203, 0.3);
-    box-shadow: 0 2px rgba(44,148,203, 0.3);
+    border-bottom: 12px solid rgba(0,0,212, 0.6);
+    -moz-box-shadow: 0 2px rgba(0,0,212, 0.3);
+    box-shadow: 0 2px rgba(0,0,212, 0.3);
     cursor: pointer;
 }
 .KJEInputContainer input[type=range]:active::-webkit-slider-thumb {
-    border-bottom: 12px solid rgba(44,148,203, 1);
-    -moz-box-shadow: 0 2px rgba(44,148,203, 0.6);
-    box-shadow: 0 2px rgba(44,148,203, 0.3);
+    border-bottom: 12px solid rgba(0,0,212, 1);
+    -moz-box-shadow: 0 2px rgba(0,0,212, 0.6);
+    box-shadow: 0 2px rgba(0,0,212, 0.3);
 
 }
 
@@ -2251,17 +2255,17 @@ div.KJEMenuSelectedRow {
     border-top: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid rgba(44,148,203, 0.6);
-    -moz-box-shadow: 0 2px rgba(44,148,203, 0.3);
-    box-shadow: 0 2px rgba(44,148,203, 0.3);
+    border-bottom: 12px solid rgba(0,0,212, 0.6);
+    -moz-box-shadow: 0 2px rgba(0,0,212, 0.3);
+    box-shadow: 0 2px rgba(0,0,212, 0.3);
     cursor: pointer;
     background: transparent;
 }
 
 .KJEInputContainer input[type=range]:active::-moz-range-thumb {
-    border-bottom: 12px solid rgba(44,148,203, 1);
-    -mox-box-shadow: 0 2px rgba(44,148,203, 0.6);
-    box-shadow: 0 2px rgba(44,148,203, 0.6);
+    border-bottom: 12px solid rgba(0,0,212, 1);
+    -mox-box-shadow: 0 2px rgba(0,0,212, 0.6);
+    box-shadow: 0 2px rgba(0,0,212, 0.6);
 }
 
 .KJEInputContainer input[type=range]::-ms-track {
@@ -2303,17 +2307,17 @@ div.KJEMenuSelectedRow {
     margin-top: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid rgba(44,148,203, 0.6);
+    border-bottom: 12px solid rgba(0,0,212, 0.6);
     border-top: 0;
-    box-shadow: 0 2px 0 rgba(44,148,203, 0.3);
+    box-shadow: 0 2px 0 rgba(0,0,212, 0.3);
     cursor: pointer;
     background: transparent;
 }
 
 .KJEInputContainer input[type=range]:active::-ms-thumb {
-    border-bottom: 12px solid rgba(44,148,203, 1);
-    -webkit-box-shadow: 0 2px rgba(44,148,203, 0.6);
-    box-shadow: 0 2px rgba(44,148,203, 0.6);
+    border-bottom: 12px solid rgba(0,0,212, 1);
+    -webkit-box-shadow: 0 2px rgba(0,0,212, 0.6);
+    box-shadow: 0 2px rgba(0,0,212, 0.6);
 }
 
 table.KJEIndexTable tr:hover {
