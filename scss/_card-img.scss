@@ -501,13 +501,24 @@
   }
 
   &-2{
-    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.whatisaheloc.jpg');
-    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.whatisaheloc.jpg');
-    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.whatisaheloc.jpg');
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.heloc.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.heloc.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.heloc.jpg');
     &:hover {
-      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.whatisaheloc.jpg');
-      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.whatisaheloc.jpg');
-      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.whatisaheloc.jpg');
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.heloc.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.heloc.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.heloc.jpg');
+    }
+  }
+
+  &-3{
+    background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.tm.jpg');
+    background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.tm.jpg');
+    background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url('../img/card.tm.jpg');
+    &:hover {
+      background-image:-webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.tm.jpg');
+      background-image:-o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.tm.jpg');
+      background-image:linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url('../img/card.tm.jpg');
     }
   }
 }
