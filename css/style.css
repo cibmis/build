@@ -201,8 +201,11 @@
   .jumbotron-fluid-addmlo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/add-jumbo.jpg");
     max-height: 60vh; }
-  .jumbotron-fluid-whatisaheloc {
+  .jumbotron-fluid-tmheader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/TMHeader.jpg");
+    max-height: 60vh; }
+  .jumbotron-fluid-whatisaheloc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/heloc-header.jpg");
     max-height: 60vh; }
 
 .jumbotron-fluid-mlo {

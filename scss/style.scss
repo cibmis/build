@@ -319,8 +319,13 @@
     max-height: 60vh;
   }
 
-  &-whatisaheloc {
+  &-tmheader {
     background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/TMHeader.jpg');
+    max-height: 60vh;
+  }
+
+  &-whatisaheloc {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/heloc-header.jpg');
     max-height: 60vh;
   }
 
