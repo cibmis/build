@@ -294,6 +294,10 @@ button.KJEMenu:hover {
     text-align: right;
 }
 
+#KJE-PODEFN-MSG_MENU {
+    top: 60px !important;
+}
+
 #KJEWait {
     position: relative;
     top: 18px;
