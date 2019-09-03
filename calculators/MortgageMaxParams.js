@@ -2,7 +2,7 @@
 
 
 KJE.parameters.set("INCREMENT",0.25);
-KJE.parameters.set("INTEREST_RATE",KJE.Default.RateFix30);
+KJE.parameters.set("INTEREST_RATE",3.5);
 KJE.parameters.set("TERM_IN_YEARS",30);
 
 KJE.parameters.set("HAZARD_INSURANCE_UNIT",KJE.MortgageMaxCalc.ITEM_ANNUAL);
