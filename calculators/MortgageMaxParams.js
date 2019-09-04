@@ -35,7 +35,7 @@ KJE.parameters.set("CREDIT_CARDS",0);
 KJE.parameters.set("HIGH_DEBT_PITI_RATE",43);
 KJE.parameters.set("HOUSING_EXPENSES",0);
 KJE.parameters.set("INSTALLMENT_LOANS",0);
-KJE.parameters.set("LOW_DEBT_PITI_RATE",28);
+KJE.parameters.set("LOW_DEBT_PITI_RATE",43);
 KJE.parameters.set("MONTHLY_HOUSING_EXPENSES",185);
 KJE.parameters.set("MONTHLY_LIABILITIES",450);
 KJE.parameters.set("MORTGAGE_INSURANCE",35);
