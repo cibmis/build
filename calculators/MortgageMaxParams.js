@@ -32,7 +32,7 @@ KJE.parameters.set("COBORROWER_SALARY",0);
 KJE.parameters.set("COBORROWER_STUDENT_LOANS",0);
 KJE.parameters.set("COMMISSION",0);
 KJE.parameters.set("CREDIT_CARDS",0);
-KJE.parameters.set("HIGH_DEBT_PITI_RATE",36);
+KJE.parameters.set("HIGH_DEBT_PITI_RATE",43);
 KJE.parameters.set("HOUSING_EXPENSES",0);
 KJE.parameters.set("INSTALLMENT_LOANS",0);
 KJE.parameters.set("LOW_DEBT_PITI_RATE",28);
