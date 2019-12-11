@@ -7312,6 +7312,14 @@ a.text-dark:hover, a.text-dark:focus {
       background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.tm.jpg");
       background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.tm.jpg");
       background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.tm.jpg"); }
+  .card-image-resources-4 {
+    background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.kidsclub.jpg");
+    background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.kidsclub.jpg");
+    background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.6), rgba(35, 54, 84, 0.6)), url("../img/card.kidsclub.jpg"); }
+    .card-image-resources-4:hover {
+      background-image: -webkit-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.kidsclub.jpg");
+      background-image: -o-linear-gradient(top left, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.kidsclub.jpg");
+      background-image: linear-gradient(to bottom right, rgba(35, 54, 84, 0.4), rgba(35, 54, 84, 0.4)), url("../img/card.kidsclub.jpg"); }
 
 .card-image-ave {
   background-size: cover;
