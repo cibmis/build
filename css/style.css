@@ -209,7 +209,8 @@
     max-height: 60vh; }
   .jumbotron-fluid-kcheader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/kcheader.jpg");
-    max-height: 60vh; }
+    max-height: 60vh;
+    background-position: bottom; }
 
 .jumbotron-fluid-mlo {
   width: 100%;
