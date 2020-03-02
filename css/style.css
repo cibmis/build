@@ -213,8 +213,8 @@
     background-position: center; }
   .jumbotron-fluid-digitalwallet {
       background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Digital_Wallet_Page_Photo.jpg");
-      max-height: 60vh;
-      background-position: center; }
+      background-size: cover;
+      max-height: 60vh;}
 
 .jumbotron-fluid-mlo {
   width: 100%;
