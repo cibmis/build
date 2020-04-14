@@ -279,4 +279,4 @@ p.feature {
   clip-path: circle(50% at 50% 50%); }
 
 tr.noBorder td {
-  border: 0; }
+  border: 0 !important; }
