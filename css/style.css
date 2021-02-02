@@ -298,5 +298,5 @@ p.feature {
   border: 0 !important; }
 
 .article {
-  color: black;
-  text-decoration: none; }
+  text-decoration: none;
+  display: block; }
