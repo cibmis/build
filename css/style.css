@@ -298,4 +298,8 @@ p.feature {
   border: 0 !important; }
 
 .article {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
+  .article :hover {
+    text-decoration: none;
+    color: black; }
