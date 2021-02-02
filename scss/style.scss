@@ -465,10 +465,10 @@ p.feature {
   border:  0 !important;
 }
 
-.article  {
+a.article  {
   text-decoration: none;
   color: black;
-  :hover {
+  &:hover {
     text-decoration: none;
     color: black;
   }
