@@ -297,9 +297,9 @@ p.feature {
 .noBorder {
   border: 0 !important; }
 
-.article {
+a.article {
   text-decoration: none;
   color: black; }
-  .article :hover {
+  a.article :hover {
     text-decoration: none;
     color: black; }
