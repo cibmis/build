@@ -296,3 +296,7 @@ p.feature {
 
 .noBorder {
   border: 0 !important; }
+
+a.article {
+  color: black;
+  text-decoration: none; }
